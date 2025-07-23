@@ -1,0 +1,287 @@
+/* Custom CSS for your homepage */
+
+body {
+    font-family: Arial, sans-serif; /* You can choose a different font */
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: black !important; /* Ensure brand text is black */
+    font-weight: bold;
+    font-size: 15px; /* Changed from 24px to 15px based on your provided CSS */
+}
+
+.navbar-brand img {
+    height: 50px; /* Adjust as needed */
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #28a745 !important; /* Green color for hover */
+    text-decoration: underline;
+}
+
+.btn-donate {
+    color: #28a745;
+    border: 1px solid #28a745;
+    background-color: transparent;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-donate:hover {
+    background-color: #28a745; /* Changed to green on hover as per previous spec, your provided CSS had it transparent */
+    color: white; /* Added color: white on hover */
+    border: 1px solid #28a745; /* Keeping border on hover */
+}
+
+.btn-contact {
+    color: white;
+    border: 1px solid #28a745;
+    background-color: #28a745; /* Changed background-color to green, as specified */
+    font-weight: bold;
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: darkgreen; /* Slightly darker green on hover for distinction */
+    color: white;
+}
+
+/* Hero Section (Slider) */
+.hero-section {
+    position: relative;
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.hero-section .carousel-item img {
+    height: 600px; /* Ensure images fill the carousel item height */
+    object-fit: cover; /* Cover the area without distortion */
+    filter: brightness(0.6); /* Darken the image for text readability */
+}
+
+.hero-section .carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero-section .carousel-caption h1 {
+    font-size: 3.5rem; /* Adjust font size */
+    margin-bottom: 20px;
+}
+
+.hero-section .carousel-caption p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+/* Impact Section */
+.impact-section .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.impact-section .card:hover {
+    transform: translateY(-5px);
+}
+
+/* About Us Section */
+.about-us-section img {
+    border-radius: 15px;
+}
+
+/* Solutions Section */
+.solutions-section .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.solutions-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.solutions-section .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Moments of Excellence Section */
+.moments-section img {
+    border-radius: 15px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Join Our Journey Section */
+.join-journey-section img {
+    border-radius: 15px;
+}
+
+/* Newsletter Section */
+.newsletter-section .form-control-lg {
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+.newsletter-section .btn-lg {
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+}
+
+/* Donate CTA Section */
+.donate-cta {
+    background-color: #28a745; /* Matching green with other elements */
+    padding: 80px 0;
+}
+
+.donate-cta .btn-light {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ccc;
+}
+
+.footer a {
+    color: #ccc;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.green-divider {
+      border-left: 10px solid #00FF57;
+      height: 100%;
+    }
+
+    .about-btn {
+      background-color: #00FF57;
+      color: black;
+      font-weight: bold;
+    }
+
+    .about-btn:hover {
+      background-color: #00cc44;
+      color: white;
+    }
+
+    .heading {
+      font-weight: 700;
+    }
+
+    .arrow {
+      color: #00FF57;
+      margin-right: 10px;
+    }
+
+.section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .highlight-tag {
+      background-color: #fcefcf;
+      color: #000;
+      padding: 4px 12px;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .solution-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .solution-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .solution-card h5 {
+      font-weight: 600;
+      color: #000;
+    }
+
+    .solution-card p {
+      color: #333;
+    }
+
+    .btn-green {
+      background-color: #00cc66;
+      color: white;
+      font-weight: 500;
+      border-radius: 30px;
+      padding: 10px 25px;
+      border: none;
+    }
+
+    .btn-green:hover {
+      background-color: #00a04d;
+    }
+
+.bg-dark-green {
+    background-color: #0d4a0d; /* Adjust this to your exact green shade */
+    /* If you have a background pattern image, you'd add: */
+    /* background-image: url('path/to/your/pattern.png'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+/* For the subtle text color "We won't spam your mailbox" */
+.text-muted {
+    color: rgba(255, 255, 255, 0.7) !important; /* Lighter white for contrast */
+}
+
+/* Adjust button and input styling if needed */
+.btn-warning {
+    background-color: #f7b400; /* Adjust this to your exact golden color */
+    border-color: #f7b400;
+}
+
+.form-control {
+    background-color: white;
+    color: #333;
+}
+@media (min-width: 992px) { /* Applies from large (lg) breakpoint and up */
+    .navbar-collapse .d-flex {
+        margin-left: 60px; /* Adjust this value for more or less space */
+    }
+}
