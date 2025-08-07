@@ -634,3 +634,41 @@
         border-bottom-right-radius: 8px;
     }
 }
+
+
+     .login-container {
+            height: 100vh;
+        }
+        .image-side {
+            background-image: url('https://source.unsplash.com/random/1200x900/?office,workspace');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh; /* This is the key change */
+        }
+       
+        @media (max-width: 991.98px) {
+    .image-side {
+        padding-top: 10;
+        margin-top: 0;
+        /* Ensures the image itself is centered if it doesn't fill the space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+        .form-side {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+        }
