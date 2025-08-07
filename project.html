@@ -25,7 +25,7 @@
                         <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./project before.html">Projects</a>
+                        <a class="nav-link" href="./project.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About Us</a>
@@ -44,33 +44,24 @@
         </div>
     </nav>
 
-        <div class="main-container" style="--page-background-image: url('images/Container\ \(3\).png');">
+    <div id="project-hero-section" class="main-container">
         <div class="background-content">
             <div class="left-content project-display-area">
-                </div>
+            </div>
 
-            <div class="right-media">
-                <div class="media-item mb-3">
-                    
-                    <img src="images/Slide 1 (1).png" alt="Before Image Spotlight" class="img-fluid rounded shadow">
-                    
-                </div>
-                <div class="media-item">
-                  
-                    <div class="embed-responsive embed-responsive-16by9 rounded shadow">
-                        <iframe class="embed-responsive-item" src="http://googleusercontent.com/youtube.com/embed/your-before-video-id" allowfullscreen></iframe>
-                        </div>
-                    
-                </div>
+            <div id="project-media-display" class="right-media">
+                
             </div>
         </div>
 
         <div class="button-container-before">
             <div class="button-group">
-                <a href="project before.html" class="btn btn-before btn-lg me-3 active" aria-current="page">Before</a>
-                <a href="project after.html" class="btn btn-after btn-lg">After</a>
+                <a href="#" id="before-btn" class="btn btn-before btn-lg me-3 active" aria-current="page">Before</a>
+                <a href="#" id="after-btn" class="btn btn-after btn-lg">After</a>
             </div>
-            <div class="right-bottom-elements"> <a href="your-new-page.html" class="btn btn btn-lg text-white">Videos Of Project</a> </div>
+            <div class="right-bottom-elements"> 
+                <a href="#" id="future-state-link" class="btn btn btn-lg text-white">Videos Of Project</a> 
+            </div>
         </div>
     </div>
 
@@ -78,17 +69,8 @@
         <div class="container py-5">
         <div class="row mb-4">
             <div class="col-12 col-md-12">
-                <h1 class="fw-bold mb-3">A Story Of Hope, A Home Waiting!</h1>
-                <p class="text-dark">
-                    
-                    For over twenty years, this house has been more than just a structure. It has been a place of love, safety, and memories. Within these walls, a family was raised. Children took their first steps on its dusty floors, laughter echoed through the rooms, and meals were shared with joy, even in the hardest times. This home has seen birthdays, prayers, storms, and seasons come and go.
-                    But time has taken its toll. The roof now leaks whenever it rains, turning restful nights into sleepless ones. Cracks run down the walls like scars, and the floors, once firm, have grown weak and uneven. The kitchen, once the heart of the home, is barely usable, and the bathroom plumbing struggles to work properly. The house is aging faster than the man who built his life inside it.
-                    He is not a man who complains. He has done his best to patch things up over the years. A bit of cement here, a piece of zinc there, holding it all together with determination and hope. But the truth is, the repairs needed now are beyond what he can handle alone. What used to be small fixes are now serious concerns. Each new rain brings more damage, and each passing day brings more worry.
-                    He is a father, a community member, and someone who has spent his life working hard and helping others. He is not asking for luxury. He is simply asking for the chance to make his home safe again. A home where he can sleep without fear of water dripping in at night. A place where he can host his family and pass down the same warmth and love that once filled those walls.
-                    This request for support is not just about fixing a house. It is about restoring dignity. It is about helping someone who has always given what he could, even when it wasn’t much, to now receive help in return. With your support, we can turn broken rooms into safe spaces and restore not just bricks and boards, but peace of mind.
-                    Renovating this home means more than patching up a roof or repainting the walls. It means giving someone the chance to breathe again. To walk into a house and feel proud. To sit down and feel secure. To live, not just survive.
-                    This is a story of a man, a house, and a community that still believes in helping each other. Together, we can rebuild more than a home. We can restore hope.
-                </p>
+                <h1 id="project-main-title" class="fw-bold mb-3"></h1>
+                <p id="project-story-description" class="text-dark"></p>
             </div>
         </div>
        
@@ -97,34 +79,28 @@
             <div class="col-12 col-md-12">
                 <div class="d-flex flex-column mb-3">
                     <p class="fw-small mb-2">Estimated progress cost</p>
-                    <h3 class="fw-bold mb-2"> N1,500,000.00</h3>
+                    <h3 id="project-cost" class="fw-bold mb-2"></h3>
                     
                 </div>
-               <!--  <div class="d-flex justify-content-end mb-2">
-                <img src="images/sprade-green.png" alt="Small Progress Image" class="img-fluid rounded" style="width: 50px; height: auto;">
-                  </div>
-                <div>-->
-                    <div class="d-flex flex-column mb-3">
-                        <h3 class="fw-bold mb-2">Campaign progress</h3>
-                    <h3 class="fw-bold mb-2">N500,000.00</h3>
-                    <p>of N1,500,000.00 Funded</p>
-                        <div class="d-flex justify-content-end align-items-center mb-1">
-                <div class="text-center">
-                    <h3 class="fw-bold mb-0">15%</h3>
-                    <p class="mb-0">of Goal</p>
-                </div>
-            </div>
-    
-                </div>
-                    <div class="progress mb-4" style="height: 10px;">
-                    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex flex-column mb-3">
+                    <h3 class="fw-bold mb-2">Campaign progress</h3>
+                    <h3 id="project-funded" class="fw-bold mb-2"></h3>
+                    <p id="project-funded-of-cost"></p>
+                    <div class="d-flex justify-content-end align-items-center mb-1">
+                        <div class="text-center">
+                            <h3 id="project-progress-percentage" class="fw-bold mb-0"></h3>
+                            <p class="mb-0">of Goal</p>
+                        </div>
                     </div>
+                </div>
+                <div class="progress mb-4" style="height: 10px;">
+                    <div id="project-progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                     </div>
                 </div>
 
                 <div class="text-center">
-            <a href="./donate.html" class="btn btn-custom-donate btn-lg w-100">Donate</a>
-            </div>
+                    <a href="./donate.html" class="btn btn-custom-donate btn-lg w-100">Donate</a>
+                </div>
             </div>
         </div>
        </div>
@@ -134,76 +110,7 @@
     <!--ongoing project starts-->
         <div class="container my-5">
             <h2 class="card-header fw-bold mb-4">Ongoing Projects</h2>
-            <div class="row g-4 mb-4">
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/shape.png" class="card-img-top" alt="Card Image 1">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text-small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                            <p class="card-text small mb-2"><strong> 12 June 2025</strong></p>
-                            <div class="mt-auto">
-                                <div class="progress mb-2">
-                                    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="card-text fw-bold text-start">N200,000 out of N10,000,000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/Slide 1.png" class="card-img-top" alt="Card Image 2">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text-small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                            <p class="card-text small mb-2"><strong>12 June 2025</strong> </p>
-                            <div class="mt-auto">
-                                <div class="progress mb-2">
-                                    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="card-text fw-bold text-start">N200,000 Out of N10,000,000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/Slide 1.png" class="card-img-top" alt="Card Image 3">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text-small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                            <p class="card-text small mb-2"><strong> 12 June 2025</strong></p>
-                            <div class="mt-auto">
-                                <div class="progress mb-2">
-                                    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="card-text fw-bold text-start">N200,000 out of N10,000,000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/shape.png" class="card-img-top" alt="Card Image 4">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text-small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                            <p class="card-text small mb-2"><strong>12 June 2025</strong> </p>
-                            <div class="mt-auto">
-                                <div class="progress mb-2">
-                                    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="card-text fw-bold text-start">N200,000 out of N10,000,000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="ongoing-projects-container" class="row g-4 mb-4">
             </div>
         </div>
     <!--ongoing project end-->
@@ -211,29 +118,8 @@
     <!--completed projects starts-->
         <div class="container my-5">
             <h2 class="card-header fw-bold mb-4">Completed Projects</h2>
-            <div class="row g-4 mb-4">
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/shape.png" class="card-img-top" alt="Card Image 1">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text-small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card h-100">
-                        <img src="images/Slide 1.png" class="card-img-top" alt="Card Image 2">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title h5 fw-bold">Mama Adanne Renovate</h2>
-                            <p class="card-text text- small">For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....</p>
-                        </div>
-                    </div>
-                </div>
+            <div id="completed-projects-container" class="row g-4 mb-4">
             </div>
-
-            
         </div>
     <!--completed projects ends-->
 
@@ -385,5 +271,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-

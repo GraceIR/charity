@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Mama Adanne Renovate",
+      "description": "For over Two Decades, This House Stood As More Than Just Bricks And Mortar- it's Been A Shelter, A place of Laughter, Prayer, And Quiet Endurance.....",
+      "date": "12 June 2025",
+      "status": "ongoing",
+      "cost": "10,000,000",
+      "funded": "200,000",
+      "progress": 20,
+      "future_state_3d": "your-new-page.html",
+      "before": {
+        "image": "images/Slide 1 (1).png",
+        "video": "http://googleusercontent.com/youtube.com/embed/your-before-video-id",
+        "background_image": "images/Slide 1 (1).png"
+      },
+      "after": {
+        "images": [
+          "images/Property 1=Group 22.png",
+          "images/Property 1.png",
+          "images/Property 1=Group 21.png"
+        ],
+        "background_image": "images/Property 1=Group 22.png"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Community Well Project",
+      "description": "Bringing clean and accessible water to the village of Umuaka.",
+      "date": "28 May 2025",
+      "status": "ongoing",
+      "cost": "5,000,000",
+      "funded": "1,500,000",
+      "progress": 30,
+      "future_state_3d": "your-new-page.html",
+      "before": {
+        "image": "images/shape.png",
+        "video": "http://googleusercontent.com/youtube.com/embed/your-before-video-id-2",
+        "background_image": "images/shape.png"
+      },
+      "after": {
+        "images": [
+          "images/Slide 1.png"
+        ],
+        "background_image": "images/Slide 1.png"
+      }
+    },
+    {
+      "id": 3,
+      "title": "School Building Initiative",
+      "description": "Renovating the primary school to provide a better learning environment for the children.",
+      "date": "15 April 2025",
+      "status": "completed",
+      "cost": "15,000,000",
+      "funded": "15,000,000",
+      "progress": 100,
+      "future_state_3d": "your-new-page.html",
+      "before": {
+        "image": "images/Slide 1.png",
+        "background_image": "images/Slide 1.png"
+      },
+      "after": {
+        "images": [
+          "images/shape.png"
+        ],
+        "background_image": "images/shape.png"
+      }
+    }
+  ]
+}
