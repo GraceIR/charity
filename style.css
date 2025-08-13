@@ -672,3 +672,164 @@
             max-width: 400px;
             width: 100%;
         }
+
+       
+    /* Overall page background, so the button container stands out */
+    /*.admin-page-bg {
+        background-color: #f8f9fa;
+    }*/
+
+/* Container styling, with the requested background and a border */
+.admin-container {
+    background-color: #C7FFC7; /* The color you specified for the container */
+   /* border: 2px solid #5EA65E;*/
+    padding: 30px; /* Increased padding to "expand the container more" */
+    width: 550px; /* A fixed width to make it larger */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inactive button styling */
+.btn-project, .btn-blog {
+    background-color: #5EA65E;
+    color: white;
+    margin: 0 10px; /* Increased margin for more space between buttons */
+    padding: 10px 25px; /* Added padding to make buttons larger */
+    border: none; /* Removed default button border */
+    transition: background-color 0.3s ease;
+}
+
+/* Active button styling */
+.btn-project:hover, .btn-project:active, .btn-project:focus,
+.btn-blog:hover, .btn-blog:active, .btn-blog:focus {
+    background-color: #00914B !important;
+    color: white !important;
+}
+
+/* Styling for the top buttons */
+.project-btn {
+    background-color: transparent; /* No background color when inactive */
+    color: #00A008;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-btn:hover,
+.project-btn:active,
+.project-btn:focus {
+    background-color: #00914B !important;
+    color: white !important;
+}
+
+/* Styling for the horizontal line */
+/*.project-divider {
+    border-top: 1px solid #ccc;
+}*/
+
+
+.project-buttons button {
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    flex-grow: 1; /* Allows buttons to grow to fill space */
+}
+
+/* Specific button colors */
+.btn-edit,
+.btn-adjust,
+.btn-complete {
+    background-color: #00914B;
+}
+
+.btn-delete {
+    background-color: #FF0000;
+}
+
+/* Hover effects */
+.btn-edit:hover, .btn-edit:focus, .btn-edit:active,
+.btn-adjust:hover, .btn-adjust:focus, .btn-adjust:active,
+.btn-complete:hover, .btn-complete:focus, .btn-complete:active {
+    background-color: #007a3c !important;
+}
+
+.btn-delete:hover, .btn-delete:focus, .btn-delete:active {
+    background-color: #cc0000 !important;
+}
+
+/*adjust price*/
+.form-border-container {
+    border: 1px solid #888888;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%; /* Adjust this value to change the form's width */
+    margin: 0 auto;
+}
+/* Button Inactive State */
+.btn-cancel,
+.btn-proceed {
+    background-color: #888888;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Active/Hover State */
+.btn-cancel:hover,
+.btn-proceed:hover,
+.btn-cancel:active,
+.btn-proceed:active,
+.btn-cancel:focus,
+.btn-proceed:focus {
+    background-color: #00A008 !important;
+    color: white;
+}
+
+/* Optional: To make the form look better */
+.form-control {
+    border-radius: 5px ;
+}
+
+/* edit project*/
+.before-after-btn {
+    background-color: white;
+    color: #00A008;
+    border: 1px solid #00A008;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.before-after-btn:hover,
+.before-after-btn:active,
+.before-after-btn:focus {
+    background-color: #00A008 !important;
+    color: white !important;
+}
+
+.go-back-btn {
+    background-color: transparent;
+    color: #00A008;
+    border: none;
+}
+
+.go-back-btn:hover,
+.go-back-btn:active,
+.go-back-btn:focus {
+    color: #007005 !important; /* A slightly darker green on hover */
+}
+
+.upload-box {
+    border: 1px solid #00A008; /* Default border color and style */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.upload-box:hover {
+    border-color: #007a3c; /* A slightly darker green on hover */
+}
